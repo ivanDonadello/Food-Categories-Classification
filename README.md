@@ -26,6 +26,12 @@ We train and test the models with the following software configuration but more 
 
 **Train a model**
 
+Before training a model set in `food_category_classification.py` the following variables:
+
+- `TYPE_CLASSIFIER` if you want to train the multiclass or multilabel model. It takes the values `multiclass` or `multilabel`;
+- `DATA_DIR` that is your local path to the `FFoCat` folder.
+
+To run a train use the following command
 ```
 python food_category_classification.py
 ```
@@ -33,6 +39,13 @@ Models will be saved in the `models` folder.
 
 **Evaluate a model**
 
+Before evaluating a model set in `evaluation_classifier.py` the following variables:
+
+- `TYPE_CLASSIFIER` if you want to test the multiclass or multilabel model. It takes the values `multiclass` or `multilabel`;
+- `DATA_DIR` as above;
+- `USE_PREDICTION_SCORE` useful only for the multiclass classification. If you want to use the classification score for the inferred food category labels set it to `True`, `False` otherwise.
+
+To run the evaluation use the following command
 ```
 python evaluation_classifier.py
 ```
