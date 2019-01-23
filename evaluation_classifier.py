@@ -77,7 +77,7 @@ if __name__ == "__main__":
     USE_PREDICTION_SCORE = True
     RESULTS_DIR = 'results'
     TYPE_CLASSIFIER = 'multiclass' # accepted values only: ['multiclass', 'multilabel'] 
-    DATA_DIR = '/kingman2/data/donadello/FFoCat'
+    DATA_DIR = '/your/local/folder/FFoCat'
     RECIPE_FOOD_MAP = os.path.join(DATA_DIR, 'food_food_category_map.tsv')
     TRAIN_DIR = os.path.join(DATA_DIR, 'train')
     VALID_DIR = os.path.join(DATA_DIR, 'valid')
