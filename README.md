@@ -21,7 +21,7 @@ We train and test the models with the following software configuration but more 
 - Keras 2.1.3;
 - TensorFlow 1.4.0;
 - Numpy 1.13.1;
-- Sklearn 0.18.1;
+- Scikit-learn 0.18.1;
 - Matplotlib 1.5.1;
 
 **Training a model**
