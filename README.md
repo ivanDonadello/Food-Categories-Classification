@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The FFoCat Dataset
 
-Click [here](http://bit.do/eGcW5), download the `FFoCat.zip` file and just unzip it.
+[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file and unzip it in your local machine.
 
 ## Using the Source Code
 
