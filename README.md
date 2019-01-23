@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The FFoCat Dataset
 
-[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file and unzip it in your local machine.
+[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file and unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels.
 
 ## Using the Source Code
 
@@ -24,7 +24,7 @@ We train and test the models with the following software configuration but more 
 - Sklearn 0.18.1;
 - Matplotlib 1.5.1;
 
-**Train a model**
+**Training a model**
 
 Before training a model set in `food_category_classification.py` the following variables:
 
@@ -37,7 +37,7 @@ python food_category_classification.py
 ```
 Models will be saved in the `models` folder.
 
-**Evaluate a model**
+**Evaluating a model**
 
 Before evaluating a model set in `evaluation_classifier.py` the following variables:
 
