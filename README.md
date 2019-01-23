@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The FFoCat Dataset
 
-[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file and unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels.
+[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels.
 
 ## Using the Source Code
 
@@ -14,7 +14,7 @@ This repository contains the dataset and the source code for the classification 
 
 **Requirements**
 
-We train and test the models with the following software configuration but more recent versions of the libraries work:
+We train and test the models with the following software configuration. However, more recent versions of the libraries could also work:
 
 - Ubuntu 14.04;
 - Python 2.7.6;
