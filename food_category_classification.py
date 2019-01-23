@@ -94,7 +94,7 @@ if __name__=="__main__":
 
     HISTORY_DIR = 'history'
     MODELS_DIR = 'models'
-    DATA_DIR = '/kingman2/data/donadello/FFoCat'
+    DATA_DIR = '/your/local/folder/FFoCat'
     RECIPE_FOOD_MAP = os.path.join(DATA_DIR, 'food_food_category_map.tsv')
     TYPE_CLASSIFIER = 'multilabel' # accepted values only: ['multiclass', 'multilabel'] 
     TRAIN_DIR = os.path.join(DATA_DIR, 'train')
