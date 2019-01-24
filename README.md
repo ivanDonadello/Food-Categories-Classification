@@ -6,6 +6,19 @@ This repository contains the dataset and the source code for the classification 
 
 [Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels.
 
+| Name         |  Year | \#Images | \#Classes | \#Images per Class | Type |            Reference           |
+|--------------|:-----:|:--------:|:---------:|:------------------:|:----:|:------------------------------:|
+| TADA         |  2009 |  50/256  |     -     |          -         |  S/M |   \cite{Mariappan09personal}   |
+| Food85       |  2010 |   8500   |     85    |         100        |   S  |      \cite{Hoashi10image}      |
+| Chen         |  2012 |   5000   |     50    |         100        |   S  |    \cite{Chen2012automatic}    |
+| Food-101     |  2014 |  101000  |    101    |        1000        |   S  |     \cite{Bossard14food101}    |
+| UEC FOOD-256 |  2014 |   31397  |    256    |       122.64       |  S/M |     \cite{Kawano14foodcam}     |
+| UNICT-FD889  |  2014 |   3583   |    889    |        4.03        |   S  |     \cite{Farinella14bench}    |
+| Diabetes     |  2014 |   4868   |     11    |       442.55       |   S  | \cite{Anthimopoulos14diabetes} |
+| UNIMIB2016   | 2016d |   1027   |     73    |        14.07       |   M  |       \cite{Ciocca17food}      |
+| Food524DB    |  2017 |  247636  |    524    |       472.59       |   S  |     \cite{Ciocca17learning}    |
+| \foca        |  2018 |   58962  |    156    |       377.96       |  S/M |                -               |
+
 ## Using the Source Code
 
 - The `models` folder will contain the multiclass and multilabel models after the training;
