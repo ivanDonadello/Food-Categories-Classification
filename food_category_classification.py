@@ -19,10 +19,6 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
 import keras.backend as K
 import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
-config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.49
-set_session(tf.Session(config=config))
 
 
 def show_acc_history(history):
