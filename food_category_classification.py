@@ -11,7 +11,6 @@ from keras import optimizers
 from keras.utils import multi_gpu_model
 from keras.applications.inception_v3 import InceptionV3
 from keras.preprocessing import image
-import pdb
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -30,7 +29,6 @@ def show_acc_history(history):
     plt.clf()
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
-    pdb.set_trace()
     if TYPE_CLASSIFIER is 'multiclass':
         plt.plot(history.history['categorical_accuracy'])
         plt.plot(history.history['val_categorical_accuracy'])
@@ -43,7 +41,6 @@ def show_acc_history(history):
 
 def show_loss_history(history):
     plt.clf()
-    pdb.set_trace()
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
     plt.ylabel('loss')
