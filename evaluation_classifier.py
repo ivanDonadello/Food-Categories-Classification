@@ -11,10 +11,6 @@ from sklearn.preprocessing import MultiLabelBinarizer
 import tensorflow as tf
 import pdb
 import functools
-from keras.backend.tensorflow_backend import set_session
-config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.5
-set_session(tf.Session(config=config))
 from sklearn.metrics import precision_recall_curve
 from sklearn.metrics import average_precision_score
 import matplotlib.pyplot as plt
