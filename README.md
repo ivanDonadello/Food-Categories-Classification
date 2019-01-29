@@ -8,7 +8,7 @@ This repository contains the dataset and the source code for the classification 
 
 | Name           | Year | #Images  | #Food Classes | Type |          Reference         |
 |----------------|:----:|:--------:|:-------------:|:----:|:--------------------------:|
-| Food50         | 2009 |   5,000  |       50      |   S  |    \cite{Joutou09afood}    |
+| Food50         | 2009 |   5,000  |       50      |   S  |    1    |
 | PFID           | 2009 |   1,098  |       61      |   S  |      \cite{Chen09pfid}     |
 | TADA           | 2009 |  50/256  |       -       |  S/M | \cite{Mariappan09personal} |
 | Food85         | 2010 |   8,500  |       85      |   S  |    \cite{Hoashi10image}    |
@@ -23,19 +23,19 @@ This repository contains the dataset and the source code for the classification 
 | Food524DB      | 2017 |  247,636 |      524      |   S  |   \cite{Ciocca17learning}  |
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
 
-1. s;
+1. Taichi Joutou, Keiji Yanai: A food image recognition system with Multiple Kernel Learning. ICIP 2009: 285-288;
 2. s;
-[3]. s;
-[4]. s;
-[5]. s;
-[6]. s;
-[7]. ;
-[8]. ;
-[9]. ;
-[10]. ;
-[11]. ;
-[12]. ;
-13]. ;
+3. s;
+4. s;
+5. s;
+6. s;
+7. ;
+8. ;
+9. ;
+10. ;
+11. ;
+12. ;
+13. ;
 
 ## Using the Source Code
 
