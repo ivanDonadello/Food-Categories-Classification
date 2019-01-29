@@ -23,12 +23,12 @@ This repository contains the dataset and the source code for the classification 
 | Food524DB      | 2017 |  247,636 |      524      |   S  |   \cite{Ciocca17learning}  |
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
 
-[1]. ;
-[2]. ;
-[3]. ;
-[4]. ;
-[5]. ;
-[6]. ;
+[1]. s;
+[2]. s;
+[3]. s;
+[4]. s;
+[5]. s;
+[6]. s;
 [7]. ;
 [8]. ;
 [9]. ;
