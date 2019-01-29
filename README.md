@@ -6,8 +6,6 @@ This repository contains the dataset and the source code for the classification 
 
 [Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition. The Type column refers to the number of labels in each image. Single (S) means only one label per image, Multi (M) means many labels per image.
 
-<center>
-
 | Name           | Year | #Images  | #Food Classes | Type |          Reference         |
 |----------------|:----:|:--------:|:-------------:|:----:|:--------------------------:|
 | Food50         | 2009 |   5,000  |       50      |   S  |    \cite{Joutou09afood}    |
@@ -24,8 +22,6 @@ This repository contains the dataset and the source code for the classification 
 | UNIMIB2016     | 2016 |   1,027  |       73      |   M  |     \cite{Ciocca17food}    |
 | Food524DB      | 2017 |  247,636 |      524      |   S  |   \cite{Ciocca17learning}  |
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
-
-</center>
 
 ## Using the Source Code
 
