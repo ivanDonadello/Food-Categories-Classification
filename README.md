@@ -23,6 +23,20 @@ This repository contains the dataset and the source code for the classification 
 | Food524DB      | 2017 |  247,636 |      524      |   S  |   \cite{Ciocca17learning}  |
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
 
+[1]. ;
+[2]. ;
+[3]. ;
+[4]. ;
+[5]. ;
+[6]. ;
+[7]. ;
+[8]. ;
+[9]. ;
+[10]. ;
+[11]. ;
+[12]. ;
+13]. ;
+
 ## Using the Source Code
 
 - The `models` folder will contain the multiclass and multilabel models after the training;
