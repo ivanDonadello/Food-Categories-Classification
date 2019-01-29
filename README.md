@@ -9,10 +9,10 @@ This repository contains the dataset and the source code for the classification 
 | Name           | Year | #Images  | #Food Classes | Type |          Reference         |
 |----------------|:----:|:--------:|:-------------:|:----:|:--------------------------:|
 | Food50         | 2009 |   5,000  |       50      |   S  |    1    |
-| PFID           | 2009 |   1,098  |       61      |   S  |      \cite{Chen09pfid}     |
-| TADA           | 2009 |  50/256  |       -       |  S/M | \cite{Mariappan09personal} |
-| Food85         | 2010 |   8,500  |       85      |   S  |    \cite{Hoashi10image}    |
-| Chen           | 2012 |   5,000  |       50      |   S  |  \cite{Chen2012automatic}  |
+| PFID           | 2009 |   1,098  |       61      |   S  |      2     |
+| TADA           | 2009 |  50/256  |       -       |  S/M | 3 |
+| Food85         | 2010 |   8,500  |       85      |   S  |    4    |
+| Chen           | 2012 |   5,000  |       50      |   S  |  5  |
 | UEC FOOD-100   | 2012 |   9,060  |      100      |  S/M |  \cite{kawano2013realtime} |
 | Food-101       | 2014 |  101,000 |      101      |   S  |   \cite{Bossard14food101}  |
 | UEC FOOD-256   | 2014 |  31,397  |      256      |  S/M |   \cite{Kawano14foodcam}   |
@@ -24,10 +24,10 @@ This repository contains the dataset and the source code for the classification 
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
 
 1. Taichi Joutou, Keiji Yanai: A food image recognition system with Multiple Kernel Learning. ICIP 2009: 285-288;
-2. s;
-3. s;
-4. s;
-5. s;
+2. Mei Chen, Kapil Dhingra, Wen Wu, Lei Yang, Rahul Sukthankar, Jie Yang: PFID: Pittsburgh fast-food image dataset. ICIP 2009: 289-292;
+3. Anand Mariappan, Marc Bosch, Fengqing Zhu, Carol J. Boushey, Deborah A. Kerr, David S. Ebert, Edward J. Delp: Personal dietary assessment using mobile devices. Computational Imaging 2009: 72460;
+4. 	Hajime Hoashi, Taichi Joutou, Keiji Yanai: Image Recognition of 85 Food Categories by Feature Fusion. ISM 2010: 296-30;
+5. Chen Mei-Yun, Yung-Hsiang Yang, Chia-Ju Ho, Shih-Han Wang, Shane-Ming Liu, Eugene Chang, Che-Hua Yeh, Ming Ouhyoung: Automatic chinese food identification and quantity estimation. SIGGRAPH Asia 2012: 29;
 6. s;
 7. ;
 8. ;
