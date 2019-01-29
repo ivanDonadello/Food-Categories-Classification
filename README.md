@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The Food and Food Categories (FFoCat) Dataset
 
-[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels.
+[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition.
 
 | Name         |  Year | \#Images | \#Classes | \#Images per Class | Type |            Reference           |
 |--------------|:-----:|:--------:|:---------:|:------------------:|:----:|:------------------------------:|
