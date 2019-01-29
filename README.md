@@ -13,29 +13,30 @@ This repository contains the dataset and the source code for the classification 
 | TADA           | 2009 |  50/256  |       -       |  S/M | 3 |
 | Food85         | 2010 |   8,500  |       85      |   S  |    4    |
 | Chen           | 2012 |   5,000  |       50      |   S  |  5  |
-| UEC FOOD-100   | 2012 |   9,060  |      100      |  S/M |  \cite{kawano2013realtime} |
-| Food-101       | 2014 |  101,000 |      101      |   S  |   \cite{Bossard14food101}  |
-| UEC FOOD-256   | 2014 |  31,397  |      256      |  S/M |   \cite{Kawano14foodcam}   |
-| UNICT-FD889    | 2014 |   3,583  |      889      |   S  |   \cite{Farinella14bench}  |
-| Diabetes       | 2014 |   4,868  |       11      |   S  |    \cite{dehais2017two}    |
-| VIREO Food-172 | 2016 |  110,241 |      172      |  S/M |    \cite{chen2016vireo}    |
-| UNIMIB2016     | 2016 |   1,027  |       73      |   M  |     \cite{Ciocca17food}    |
-| Food524DB      | 2017 |  247,636 |      524      |   S  |   \cite{Ciocca17learning}  |
+| UEC FOOD-100   | 2012 |   9,060  |      100      |  S/M |  6 |
+| Food-101       | 2014 |  101,000 |      101      |   S  |   7  |
+| UEC FOOD-256   | 2014 |  31,397  |      256      |  S/M |   8   |
+| UNICT-FD889    | 2014 |   3,583  |      889      |   S  |   9  |
+| Diabetes       | 2014 |   4,868  |       11      |   S  |    10    |
+| VIREO Food-172 | 2016 |  110,241 |      172      |  S/M |    11    |
+| UNIMIB2016     | 2016 |   1,027  |       73      |   M  |     12    |
+| Food524DB      | 2017 |  247,636 |      524      |   S  |   13  |
 | FFoCat         | 2018 |  58,962  |      156      |  S/M |              -             |
 
 1. Taichi Joutou, Keiji Yanai: A food image recognition system with Multiple Kernel Learning. ICIP 2009: 285-288;
 2. Mei Chen, Kapil Dhingra, Wen Wu, Lei Yang, Rahul Sukthankar, Jie Yang: PFID: Pittsburgh fast-food image dataset. ICIP 2009: 289-292;
 3. Anand Mariappan, Marc Bosch, Fengqing Zhu, Carol J. Boushey, Deborah A. Kerr, David S. Ebert, Edward J. Delp: Personal dietary assessment using mobile devices. Computational Imaging 2009: 72460;
-4. 	Hajime Hoashi, Taichi Joutou, Keiji Yanai: Image Recognition of 85 Food Categories by Feature Fusion. ISM 2010: 296-30;
+4. Hajime Hoashi, Taichi Joutou, Keiji Yanai: Image Recognition of 85 Food Categories by Feature Fusion. ISM 2010: 296-30;
 5. Chen Mei-Yun, Yung-Hsiang Yang, Chia-Ju Ho, Shih-Han Wang, Shane-Ming Liu, Eugene Chang, Che-Hua Yeh, Ming Ouhyoung: Automatic chinese food identification and quantity estimation. SIGGRAPH Asia 2012: 29;
-6. s;
-7. ;
-8. ;
-9. ;
-10. ;
-11. ;
-12. ;
-13. ;
+6. Yoshiyuki Kawano, Keiji Yanai: Real-Time Mobile Food Recognition System. CVPR Workshops 2013: 1-7
+;
+7. Lukas Bossard, Matthieu Guillaumin, Luc J. Van Gool: Food-101 - Mining Discriminative Components with Random Forests. ECCV (6) 2014: 446-461;
+8. Yoshiyuki Kawano, Keiji Yanai: FoodCam-256: A Large-scale Real-time Mobile Food RecognitionSystem employing High-Dimensional Features and Compression of Classifier Weights. ACM Multimedia 2014: 761-762;
+9. Giovanni Maria Farinella, Dario Allegra, Filippo Stanco: A Benchmark Dataset to Study the Representation of Food Images. ECCV Workshops (3) 2014: 584-599;
+10. Joachim Dehais, Marios Anthimopoulos, Sergey Shevchik, Stavroula G. Mougiakakou: Two-View 3D Reconstruction for Food Volume Estimation. IEEE Trans. Multimedia 19(5): 1090-1099 (2017);
+11. Jingjing Chen, Chong-Wah Ngo: Deep-based Ingredient Recognition for Cooking Recipe Retrieval. ACM Multimedia 2016: 32-41;
+12. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Food Recognition: A New Dataset, Experiments, and Results. IEEE J. Biomedical and Health Informatics 21(3): 588-598 (2017);
+13. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Learning CNN-based Features for Retrieval of Food Images. ICIAP Workshops 2017: 426-434;
 
 ## Using the Source Code
 
