@@ -38,6 +38,11 @@ This repository contains the dataset and the source code for the classification 
 12. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Food Recognition: A New Dataset, Experiments, and Results. IEEE J. Biomedical and Health Informatics 21(3): 588-598 (2017);
 13. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Learning CNN-based Features for Retrieval of Food Images. ICIAP Workshops 2017: 426-434;
 
+Every food label has (on average) almost 389 example pictures and every food categories has (on average) approximately 4915 examples. The huge amount of data for the multilabel classification makes the problem easier with respect to a food recognition (and food categories inference) setting. However, this is counterbalanced with the distribution of the labels in the dataset Fig.~\ref{fig:label_distr}. For the food recognition task the dataset is quite balanced (Fig.~\ref{fig:food_distr}), whereas the food category recognition the dataset is unbalanced and presents the so-called \emph{long-tail problem}: many labels with few examples
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
+
+
 ## Using the Source Code
 
 - The `models` folder will contain the multiclass and multilabel models after the training;
