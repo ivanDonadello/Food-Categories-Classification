@@ -38,10 +38,7 @@ This repository contains the dataset and the source code for the classification 
 12. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Food Recognition: A New Dataset, Experiments, and Results. IEEE J. Biomedical and Health Informatics 21(3): 588-598 (2017);
 13. Gianluigi Ciocca, Paolo Napoletano, Raimondo Schettini: Learning CNN-based Features for Retrieval of Food Images. ICIAP Workshops 2017: 426-434;
 
-Every food label has (on average) almost 389 example pictures and every food categories has (on average) approximately 4915 examples. The huge amount of data for the multilabel classification makes the problem easier with respect to a food recognition (and food categories inference) setting. However, this is counterbalanced with the distribution of the labels in the dataset Fig.~\ref{fig:label_distr}. For the food recognition task the dataset is quite balanced (Fig.~\ref{fig:food_distr}), whereas the food category recognition the dataset is unbalanced and presents the so-called \emph{long-tail problem}: many labels with few examples
-![alt text](https://drive.google.com/open?id=18lX_pzEN1GbH91KfR0PbUVxVyit7jTto)
-![alt text](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_hist.png)
-
+Every food label has (on average) almost 389 example pictures and every food categories has (on average) approximately 4915 examples. The huge amount of data for the multilabel classification makes the problem easier with respect to a food recognition (and food categories inference) setting. However, this is counterbalanced with the distribution of the labels in the dataset. For the food recognition task the dataset is quite balanced ![food labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_hist.png), whereas the food category recognition the dataset is unbalanced and presents the so-called *long-tail problem*: many labels with few examples ![food category labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_cat_hist.png)
 
 ## Using the Source Code
 
