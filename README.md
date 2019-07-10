@@ -40,6 +40,13 @@ This repository contains the dataset and the source code for the classification 
 
 Every food label has (on average) almost 389 example pictures and every food categories has (on average) approximately 4915 examples. The huge amount of data for the multilabel classification makes the problem easier with respect to a food recognition (and food categories inference) setting. However, this is counterbalanced with the distribution of the labels in the dataset. For the food recognition task the dataset is quite balanced. ![food labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_hist.png) Regarding the food category recognition the dataset is unbalanced and presents the so-called *long-tail problem*: many labels with few examples. ![food category labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_cat_hist.png)
 
+## Citing FFoCat
+
+If you use FFoCat in your research, please use the following BibTeX entry.
+
+```
+```
+
 ## Using the Source Code
 
 - The `models` folder will contain the multiclass and multilabel models after the training;
