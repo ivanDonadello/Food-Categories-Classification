@@ -45,7 +45,7 @@ Every food label has (on average) almost 389 example pictures and every food cat
 If you use FFoCat in your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{DBLP:conf/iciap/DonadelloD19,
+@inproceedings{DonadelloD19Ontology,
   author    = {Ivan Donadello and
                Mauro Dragoni},
   title     = {Ontology-Driven Food Category Classification in Images},
