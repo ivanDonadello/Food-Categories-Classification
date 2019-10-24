@@ -46,8 +46,7 @@ If you use FFoCat in your research, please use the following BibTeX entry.
 
 ```
 @inproceedings{DonadelloD19Ontology,
-  author    = {Ivan Donadello and
-               Mauro Dragoni},
+  author    = {Ivan Donadello and Mauro Dragoni},
   title     = {Ontology-Driven Food Category Classification in Images},
   booktitle = {{ICIAP} {(2)}},
   series    = {Lecture Notes in Computer Science},
