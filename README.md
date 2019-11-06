@@ -40,6 +40,10 @@ This repository contains the dataset and the source code for the classification 
 
 Every food label has (on average) almost 389 example pictures and every food categories has (on average) approximately 4915 examples. The huge amount of data for the multilabel classification makes the problem easier with respect to a food recognition (and food categories inference) setting. However, this is counterbalanced with the distribution of the labels in the dataset. For the food recognition task the dataset is quite balanced. ![food labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_hist.png) Regarding the food category recognition the dataset is unbalanced and presents the so-called *long-tail problem*: many labels with few examples. ![food category labels distribution](https://github.com/ivanDonadello/Food-Categories-Classification/blob/master/food_cat_hist.png)
 
+### AGROVOC Alignment of Food Categories
+
+The `AGROVOC_alignment.tsv` file contains the alignment of the food categories in the FFoCat dataset with AGROVOC, the standard ontology of the Food and Agriculture Organization (FAO) of the United Nations. This allows interoperability and linked open data navigation. Such alignment can be derived by querying [HeLis](https://perkapp.fbk.eu/helis/), here we propose a shortcut.
+
 ### Citing FFoCat
 
 If you use FFoCat in your research, please use the following BibTeX entry.
