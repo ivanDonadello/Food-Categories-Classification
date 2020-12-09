@@ -43,7 +43,7 @@ Every food label has (on average) almost 389 example pictures and every food cat
 ### AGROVOC Alignment of Food Categories
 
 The `AGROVOC_alignment.tsv` file contains the alignment of the food categories in the FFoCat dataset with AGROVOC, the standard ontology of the Food and Agriculture Organization (FAO) of the United Nations. This allows interoperability and linked open data navigation. Such alignment can be derived by querying [HeLis](https://perkapp.fbk.eu/helis/), here we propose a shortcut.
-<!---just
+
 ### Citing FFoCat
 
 If you use FFoCat in your research, please use the following BibTeX entry.
@@ -60,7 +60,7 @@ If you use FFoCat in your research, please use the following BibTeX entry.
   year      = {2019}
 }
 ```
---->
+
 ## Using the Source Code
 
 - The `models` folder will contain the multiclass and multilabel models after the training;
