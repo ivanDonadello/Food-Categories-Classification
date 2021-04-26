@@ -1,1 +1,1 @@
-This folder contains the trained multiclass and multilabel models for food category classification from meal images. Already trained models can be found [here](https://drive.google.com/drive/u/1/folders/1mZrwfYZxNY_YZ0I_5kFZXyjp7o6y8nUM).
+This folder contains the trained multiclass and multilabel models for food category classification from meal images. Already trained models can be found [here](https://scientificnet-my.sharepoint.com/:f:/g/personal/idonadello_unibz_it/EjlyBgVS_fxMkc_t8pRm9zMBgOMXL720sSg9gm0e6WmdfA?e=ZtSVrY).
