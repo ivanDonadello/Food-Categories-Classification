@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The Food and Food Categories (FFoCat) Dataset
 
-[Here](https://scientificnet-my.sharepoint.com/:u:/g/personal/idonadello_unibz_it/EV8ZF50aDXdIju8L1G5YhBIBjxhn_YKkvQ18Kt79Z5RQFg?e=pZd7vG) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition. The Type column refers to the number of labels in each image. Single (S) means only one label per image, Multi (M) means many labels per image.
+[Here](https://scientificnet-my.sharepoint.com/:f:/g/personal/idonadello_unibz_it/EucnGGDEkaJNnd8lY29UilwB1JQfEriHcB6vTn6j0oBrGA?e=0j6ts5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition. The Type column refers to the number of labels in each image. Single (S) means only one label per image, Multi (M) means many labels per image.
 
 | Name           | Year | #Images  | #Food Classes | Type |          Reference         |
 |----------------|:----:|:--------:|:-------------:|:----:|:--------------------------:|
