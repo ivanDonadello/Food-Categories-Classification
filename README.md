@@ -4,7 +4,7 @@ This repository contains the dataset and the source code for the classification 
 
 ## The Food and Food Categories (FFoCat) Dataset
 
-[Here](https://scientificnet-my.sharepoint.com/:f:/g/personal/idonadello_unibz_it/EucnGGDEkaJNnd8lY29UilwB1JQfEriHcB6vTn6j0oBrGA?e=0j6ts5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition. The Type column refers to the number of labels in each image. Single (S) means only one label per image, Multi (M) means many labels per image.
+[Here](https://zenodo.org/record/5840047#.Yd6oUSwo-qA) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. The following table compares the FFoCat dataset with previous datasets for food recognition. The Type column refers to the number of labels in each image. Single (S) means only one label per image, Multi (M) means many labels per image.
 
 | Name           | Year | #Images  | #Food Classes | Type |          Reference         |
 |----------------|:----:|:--------:|:-------------:|:----:|:--------------------------:|
@@ -42,7 +42,7 @@ Every food label has (on average) almost 389 example pictures and every food cat
 
 ### AGROVOC Alignment of Food Categories
 
-The `AGROVOC_alignment.tsv` file contains the alignment of the food categories in the FFoCat dataset with AGROVOC, the standard ontology of the Food and Agriculture Organization (FAO) of the United Nations. This allows interoperability and linked open data navigation. Such alignment can be derived by querying [HeLis](https://perkapp.fbk.eu/helis/), here we propose a shortcut.
+The `AGROVOC_alignment.tsv` file contains the alignment of the food categories in the FFoCat dataset with AGROVOC, the standard ontology of the Food and Agriculture Organization (FAO) of the United Nations. This allows interoperability and linked open data navigation. Such alignment can be derived by querying [HeLis](https://horus-ai.fbk.eu/helis/), here we propose a shortcut.
 
 ### Citing FFoCat
 
